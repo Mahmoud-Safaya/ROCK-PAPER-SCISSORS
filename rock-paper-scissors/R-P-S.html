@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ROCK-PAPER-SCISSORS</title>
+		<link rel="stylesheet" href="R-P-S.css">
+	</head>
+	<body>
+		
+		
+		<article>
+			
+			
+			
+			<!-- The First Box -->
+			<header>
+				<div class="logo">
+					<img src="logo.svg">
+				</div>
+				
+				<div class="score">
+					<h3>SCORE</h3>
+					<span id="points"></span>
+				</div>
+			</header>
+			
+			
+			<!-- Where The Player Chooses His Move -->
+			<section class="homepage">
+				<div class="play">
+					<div class="paper" id="all">
+					</div>
+					
+					<div class="scissors" id="all">
+					</div>
+					
+					<div class="rock" id="all">
+					</div>
+				</div>
+			</section>
+			
+			
+			<section class="game">
+				<div class="playerpick">
+					<p>YOU PICKED</p>
+					<div id="drophere" class=" margin">
+						
+					</div>
+					
+				</div>
+				
+				<div class="winner win">
+					YOU WIN
+					<input type="button" name="playagain" value="PLAY AGAIN">
+				</div>
+				
+				<div class="housewin win">
+					YOU LOSE
+					<input type="button" name="playagain" value="PLAY AGAIN">
+				</div>
+				
+				<div class="win" id="equal">
+					NOBODY WINS
+					<input type="button" name="playagain" value="PLAY AGAIN">
+				</div>
+				
+				<div class="housepick">
+					<p>THE HOUSE PICKED</p>
+					<div id="house" class=" margin">
+						
+					</div>
+					
+				</div>
+				
+				<div style="clear: both"></div>
+				
+				
+			</section>
+			
+			
+			<button>RULES</button>
+			
+			
+			
+			
+			<!-- The Rules Overlay -->
+			<div class="overlay">
+				<div class="rules">
+					<h2>RULES</h2>
+					<img src="icon-close.svg" id="close">
+					<img src="image-rules.svg">
+				</div>
+			</div>	
+			
+		</article>
+		
+		<script src="R-P-S.js"></script>
+	</body>
+</html>
